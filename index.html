@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO</title>
+    <link rel="stylesheet" href="./TODO.css"/>
+    <link rel="icon" href="./h symol.jpg"/>
+    <style>
+        .one-one {
+            font-family: "Kanit", sans-serif;
+            font-weight: 700;
+            font-style: normal;
+        }
+        #listcontainer {
+            font-family: "Nerko One", cursive;
+            font-weight: 400;
+            font-style: normal;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <div id="box1">
+            <h1 id="one-one">TODO<img id="logo" src="./h symol.jpg"></h1>
+            <input type="text" id="inputbox" placeholder="Write your tasks"></td>
+            <td><button id="but1" onclick="task()">+Add</button></td>
+            <input type="date" id="inputd" >
+            <input type="time" id="inputt" >
+        </div>
+        <div id="box2">
+            <ul id="listcontainer" onclick="complete()">
+                <li id="task">YOUR TASKS </li>
+            </ul>
+        </div>
+    </center>
+    <script src="./TODO.js"></script>
+</body>
+</html>
